@@ -6,6 +6,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import lk.ac.vau.fas.ict.model.Student;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
 
 @RestController
 @RequestMapping("/app")
@@ -16,6 +22,7 @@ public class AppController {
 	Student John=new Student("2020/ICT/101", "John", 22, "IT", 3.9);
 	Student Peter=new Student("2020/ICT/102", "Peter", 21, "IT", 3.6);
 
+	List<Student> students=new ArrayList<Student>();
 	@GetMapping("/msg")
 	public String MyMessage() {
 		return "Hello SpringBoot";
@@ -31,4 +38,19 @@ public class AppController {
 		return "My age is " + age;
 	}
 
+	@GetMapping("/student")
+	public Student geStudent(){
+		return Bod;
+	}
+
+	@GetMapping("/students")
+	public List<Student> getStudnts(){
+		students.add(Bod);
+		students.add(Alice);
+		students.add(John);
+		students.add(Peter);
+		return students;
+
+	}
+	
 }
