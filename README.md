@@ -47,6 +47,68 @@ lk.ac.vau.fas.ict.Controller
      
         ![Screenshot (938)](https://github.com/isulnethila/E-Commerce_Practical_Day2/blob/main/3.png?raw=true)
 
+       - `http://localhost:8080/app/age
+    
+      ## Output
+     
+        ![Screenshot (938)](https://github.com/isulnethila/E-Commerce_Practical_Day2/blob/main/4.png?raw=true)
+
+     
+       - `http://localhost:8080/app/student
+    
+      ## Output
+     
+        ![Screenshot (938)](https://github.com/isulnethila/E-Commerce_Practical_Day2/blob/main/5.png?raw=true)
+
+      - `http://localhost:8080/app/students
+    
+      ## Output
+     
+        ![Screenshot (938)](https://github.com/isulnethila/E-Commerce_Practical_Day2/blob/main/6.png?raw=true)
+
+      - `http://localhost:8080/app/students/2020ICT100
+    
+      ## Output
+     
+        ![Screenshot (938)](https://github.com/isulnethila/E-Commerce_Practical_Day2/blob/main/7.png?raw=true)
+
+     - `http://localhost:8080/app/students/age
+      ## Output
+     
+        ![Screenshot (938)](https://github.com/isulnethila/E-Commerce_Practical_Day2/blob/main/8.png?raw=true)
+
+      - `http://localhost:8080/app/students/sort/gpa
+      ## Output
+     
+        ![Screenshot (938)](https://github.com/isulnethila/E-Commerce_Practical_Day2/blob/main/9.png?raw=true)
+
+     - `http://localhost:8080/app/students/add
+      ## Output
+     
+        ![Screenshot (938)](https://github.com/isulnethila/E-Commerce_Practical_Day2/blob/main/10.png?raw=true)
+
+      - `http://localhost:8080/app/students/update/2020ICT100
+      ## Output
+     
+        ![Screenshot (938)](https://github.com/isulnethila/E-Commerce_Practical_Day2/blob/main/11.png?raw=true)
+
+     - `http://localhost:8080/app/students/delete/2020ICT100
+      ## Output
+     
+        ![Screenshot (938)](https://github.com/isulnethila/E-Commerce_Practical_Day2/blob/main/12.png?raw=true)
+
+
+
+
+     
+
+     
+
+     
+
+
+
+
 
 
 
