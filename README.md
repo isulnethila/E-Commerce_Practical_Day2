@@ -1,4 +1,4 @@
-# IT3232 E_COMMERCE(P) Day02-2025/03/21
+# IT3232 E_COMMERCE(P) Day02 & Day03-2025/03/21 | 2025/03/29
 
 ## Overview
 This is a simple Spring Boot application that provides two REST API endpoints. It demonstrates the use of `@RestController`, `@RequestMapping`, and `@GetMapping` annotations.
