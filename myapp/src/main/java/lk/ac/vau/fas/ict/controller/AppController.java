@@ -67,4 +67,14 @@ public class AppController {
 		return null;
 	}
 	
+	@GetMapping("students/age")
+	public List<Student> getStudentByAge(){
+		List<Student> filterStudents=new ArrayList<Student>();
+		for(Student student:students){
+			if(student.getAge()>=20 && student.getAge()<23){
+				filterStudents.add(student);
+			}
+		}
+		return filterStudents;
+	}
 }
