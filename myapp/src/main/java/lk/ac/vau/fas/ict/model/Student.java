@@ -13,6 +13,36 @@ public class Student {
         this.course = course;
         this.gpa = gpa;
     }
+    public String getRegNo() {
+        return regNo;
+    }
+    public String getName() {
+        return name;
+    }
+    public int getAge() {
+        return age;
+    }
+    public String getCourse() {
+        return course;
+    }
+    public double getGpa() {
+        return gpa;
+    }
+    public void setRegNo(String regNo) {
+        this.regNo = regNo;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+    public void setCourse(String course) {
+        this.course = course;
+    }
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
+    }
     
 
 }
