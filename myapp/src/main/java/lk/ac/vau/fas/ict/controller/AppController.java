@@ -23,6 +23,13 @@ public class AppController {
 	Student Peter=new Student("2020/ICT/102", "Peter", 21, "IT", 3.6);
 
 	List<Student> students=new ArrayList<Student>();
+
+	public AppController(){
+		students.add(Bod);
+		students.add(Alice);
+		students.add(John);
+		students.add(Peter);
+	}
 	@GetMapping("/msg")
 	public String MyMessage() {
 		return "Hello SpringBoot";
@@ -45,10 +52,7 @@ public class AppController {
 
 	@GetMapping("/students")
 	public List<Student> getStudnts(){
-		students.add(Bod);
-		students.add(Alice);
-		students.add(John);
-		students.add(Peter);
+	
 		return students;
 
 	}
